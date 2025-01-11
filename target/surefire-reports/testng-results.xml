@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="48" passed="48" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-11T15:03:48 IST" name="Test Automation Framework Test Suite" finished-at="2025-01-11T15:12:35 IST" duration-ms="527121">
+    <groups>
+    </groups>
+    <test started-at="2025-01-11T15:03:48 IST" name="Test Automation Framework Test Cases" finished-at="2025-01-11T15:12:35 IST" duration-ms="527121">
+      <class name="com.odel.test.WomenPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.WomenPageTest@35229f85]" started-at="2025-01-11T15:12:18 IST" name="setup" finished-at="2025-01-11T15:12:30 IST" duration-ms="12048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.WomenPageTest@35229f85]" started-at="2025-01-11T15:12:30 IST" name="setUp" finished-at="2025-01-11T15:12:35 IST" duration-ms="4507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUniSexPageLabelTest()[pri:1, instance:com.odel.test.WomenPageTest@35229f85]" started-at="2025-01-11T15:12:35 IST" name="verifyUniSexPageLabelTest" finished-at="2025-01-11T15:12:35 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniSexPageLabelTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.WomenPageTest@35229f85]" started-at="2025-01-11T15:12:35 IST" name="tearDown" finished-at="2025-01-11T15:12:35 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUniSexPageLabelTest status=SUCCESS method=WomenPageTest.verifyUniSexPageLabelTest()[pri:1, instance:com.odel.test.WomenPageTest@35229f85] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.odel.test.WomenPageTest -->
+      <class name="com.odel.test.SignUpPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:18 IST" name="setup" finished-at="2025-01-11T15:10:25 IST" duration-ms="6911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:25 IST" name="setUp" finished-at="2025-01-11T15:10:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySignUpPageTitleTest()[pri:1, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:25 IST" name="verifySignUpPageTitleTest" finished-at="2025-01-11T15:10:27 IST" duration-ms="1305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:27 IST" name="tearDown" finished-at="2025-01-11T15:10:27 IST" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignUpPageTitleTest status=SUCCESS method=SignUpPageTest.verifySignUpPageTitleTest()[pri:1, instance:com.odel.test.SignUpPageTest@5f0e9815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:27 IST" name="setup" finished-at="2025-01-11T15:10:32 IST" duration-ms="5311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:32 IST" name="setUp" finished-at="2025-01-11T15:10:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySignUpPageLabelTest()[pri:2, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:32 IST" name="verifySignUpPageLabelTest" finished-at="2025-01-11T15:10:33 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageLabelTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:33 IST" name="tearDown" finished-at="2025-01-11T15:10:33 IST" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignUpPageLabelTest status=SUCCESS method=SignUpPageTest.verifySignUpPageLabelTest()[pri:2, instance:com.odel.test.SignUpPageTest@5f0e9815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:33 IST" name="setup" finished-at="2025-01-11T15:10:41 IST" duration-ms="7216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:41 IST" name="setUp" finished-at="2025-01-11T15:10:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageButtonClickTest()[pri:3, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:41 IST" name="verifyLoginPageButtonClickTest" finished-at="2025-01-11T15:10:42 IST" duration-ms="1509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageButtonClickTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:42 IST" name="tearDown" finished-at="2025-01-11T15:10:42 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageButtonClickTest status=SUCCESS method=SignUpPageTest.verifyLoginPageButtonClickTest()[pri:3, instance:com.odel.test.SignUpPageTest@5f0e9815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:42 IST" name="setup" finished-at="2025-01-11T15:10:49 IST" duration-ms="6786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:49 IST" name="setUp" finished-at="2025-01-11T15:10:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="forgotPasswordLinkTest()[pri:4, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:49 IST" name="forgotPasswordLinkTest" finished-at="2025-01-11T15:10:51 IST" duration-ms="1494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:51 IST" name="tearDown" finished-at="2025-01-11T15:10:51 IST" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPasswordLinkTest status=SUCCESS method=SignUpPageTest.forgotPasswordLinkTest()[pri:4, instance:com.odel.test.SignUpPageTest@5f0e9815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:10:51 IST" name="setup" finished-at="2025-01-11T15:11:02 IST" duration-ms="10798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:11:02 IST" name="setUp" finished-at="2025-01-11T15:11:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="welcomeTextDisplayTest()[pri:4, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:11:02 IST" name="welcomeTextDisplayTest" finished-at="2025-01-11T15:11:04 IST" duration-ms="2293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeTextDisplayTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:11:04 IST" name="tearDown" finished-at="2025-01-11T15:11:04 IST" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=welcomeTextDisplayTest status=SUCCESS method=SignUpPageTest.welcomeTextDisplayTest()[pri:4, instance:com.odel.test.SignUpPageTest@5f0e9815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:11:04 IST" name="setup" finished-at="2025-01-11T15:11:12 IST" duration-ms="7693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:11:12 IST" name="setUp" finished-at="2025-01-11T15:11:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySignUpPageLogoClickTest()[pri:5, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:11:12 IST" name="verifySignUpPageLogoClickTest" finished-at="2025-01-11T15:11:15 IST" duration-ms="2993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageLogoClickTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.SignUpPageTest@5f0e9815]" started-at="2025-01-11T15:11:15 IST" name="tearDown" finished-at="2025-01-11T15:11:15 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignUpPageLogoClickTest status=SUCCESS method=SignUpPageTest.verifySignUpPageLogoClickTest()[pri:5, instance:com.odel.test.SignUpPageTest@5f0e9815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.odel.test.SignUpPageTest -->
+      <class name="com.odel.test.HomePageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:03:48 IST" name="loadConfig" finished-at="2025-01-11T15:03:48 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:03:48 IST" name="setup" finished-at="2025-01-11T15:03:57 IST" duration-ms="9416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:03:57 IST" name="setUp" finished-at="2025-01-11T15:03:57 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:03:57 IST" name="verifyHomePageTitleTest" finished-at="2025-01-11T15:03:57 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:03:57 IST" name="tearDown" finished-at="2025-01-11T15:03:57 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitleTest status=SUCCESS method=HomePageTest.verifyHomePageTitleTest()[pri:1, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:03:57 IST" name="setup" finished-at="2025-01-11T15:04:06 IST" duration-ms="8640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:06 IST" name="setUp" finished-at="2025-01-11T15:04:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageLogoTest()[pri:2, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:06 IST" name="verifyHomePageLogoTest" finished-at="2025-01-11T15:04:06 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLogoTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:06 IST" name="tearDown" finished-at="2025-01-11T15:04:06 IST" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageLogoTest status=SUCCESS method=HomePageTest.verifyHomePageLogoTest()[pri:2, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:06 IST" name="setup" finished-at="2025-01-11T15:04:15 IST" duration-ms="8338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:15 IST" name="setUp" finished-at="2025-01-11T15:04:15 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageLogoClickTest()[pri:3, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:15 IST" name="verifyHomePageLogoClickTest" finished-at="2025-01-11T15:04:17 IST" duration-ms="1891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLogoClickTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:17 IST" name="tearDown" finished-at="2025-01-11T15:04:17 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageLogoClickTest status=SUCCESS method=HomePageTest.verifyHomePageLogoClickTest()[pri:3, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:17 IST" name="setup" finished-at="2025-01-11T15:04:27 IST" duration-ms="10417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:27 IST" name="setUp" finished-at="2025-01-11T15:04:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageSearchIconTest()[pri:4, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:27 IST" name="verifyHomePageSearchIconTest" finished-at="2025-01-11T15:04:27 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageSearchIconTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:27 IST" name="tearDown" finished-at="2025-01-11T15:04:27 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageSearchIconTest status=SUCCESS method=HomePageTest.verifyHomePageSearchIconTest()[pri:4, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:27 IST" name="setup" finished-at="2025-01-11T15:04:35 IST" duration-ms="8146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:35 IST" name="setUp" finished-at="2025-01-11T15:04:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageCartIconTest()[pri:5, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:35 IST" name="verifyHomePageCartIconTest" finished-at="2025-01-11T15:04:35 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageCartIconTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:35 IST" name="tearDown" finished-at="2025-01-11T15:04:36 IST" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageCartIconTest status=SUCCESS method=HomePageTest.verifyHomePageCartIconTest()[pri:5, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:36 IST" name="setup" finished-at="2025-01-11T15:04:44 IST" duration-ms="8525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:44 IST" name="setUp" finished-at="2025-01-11T15:04:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageProfileIconTest()[pri:6, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:44 IST" name="verifyHomePageProfileIconTest" finished-at="2025-01-11T15:04:44 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageProfileIconTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:44 IST" name="tearDown" finished-at="2025-01-11T15:04:44 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageProfileIconTest status=SUCCESS method=HomePageTest.verifyHomePageProfileIconTest()[pri:6, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:44 IST" name="setup" finished-at="2025-01-11T15:04:51 IST" duration-ms="6363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:51 IST" name="setUp" finished-at="2025-01-11T15:04:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageAccountIconTest()[pri:7, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:51 IST" name="verifyHomePageAccountIconTest" finished-at="2025-01-11T15:04:51 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageAccountIconTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:51 IST" name="tearDown" finished-at="2025-01-11T15:04:51 IST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageAccountIconTest status=SUCCESS method=HomePageTest.verifyHomePageAccountIconTest()[pri:7, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:51 IST" name="setup" finished-at="2025-01-11T15:04:58 IST" duration-ms="6978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:58 IST" name="setUp" finished-at="2025-01-11T15:04:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDealsLinkTest()[pri:8, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:04:58 IST" name="verifyDealsLinkTest" finished-at="2025-01-11T15:05:00 IST" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDealsLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:00 IST" name="tearDown" finished-at="2025-01-11T15:05:00 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDealsLinkTest status=SUCCESS method=HomePageTest.verifyDealsLinkTest()[pri:8, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:00 IST" name="setup" finished-at="2025-01-11T15:05:07 IST" duration-ms="6966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:07 IST" name="setUp" finished-at="2025-01-11T15:05:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNewCollectionLinkTest()[pri:9, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:07 IST" name="verifyNewCollectionLinkTest" finished-at="2025-01-11T15:05:10 IST" duration-ms="2164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewCollectionLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:10 IST" name="tearDown" finished-at="2025-01-11T15:05:10 IST" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewCollectionLinkTest status=SUCCESS method=HomePageTest.verifyNewCollectionLinkTest()[pri:9, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:10 IST" name="setup" finished-at="2025-01-11T15:05:15 IST" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:15 IST" name="setUp" finished-at="2025-01-11T15:05:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyShopByBrandsLinkTest()[pri:10, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:15 IST" name="verifyShopByBrandsLinkTest" finished-at="2025-01-11T15:05:16 IST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopByBrandsLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:16 IST" name="tearDown" finished-at="2025-01-11T15:05:17 IST" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyShopByBrandsLinkTest status=SUCCESS method=HomePageTest.verifyShopByBrandsLinkTest()[pri:10, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:17 IST" name="setup" finished-at="2025-01-11T15:05:24 IST" duration-ms="7636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:24 IST" name="setUp" finished-at="2025-01-11T15:05:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUniSexLinkTest()[pri:11, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:24 IST" name="verifyUniSexLinkTest" finished-at="2025-01-11T15:05:28 IST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniSexLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:28 IST" name="tearDown" finished-at="2025-01-11T15:05:28 IST" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUniSexLinkTest status=SUCCESS method=HomePageTest.verifyUniSexLinkTest()[pri:11, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:28 IST" name="setup" finished-at="2025-01-11T15:05:36 IST" duration-ms="8051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:36 IST" name="setUp" finished-at="2025-01-11T15:05:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyWomenLinkTest()[pri:12, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:36 IST" name="verifyWomenLinkTest" finished-at="2025-01-11T15:05:40 IST" duration-ms="3620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWomenLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:40 IST" name="tearDown" finished-at="2025-01-11T15:05:40 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWomenLinkTest status=SUCCESS method=HomePageTest.verifyWomenLinkTest()[pri:12, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:40 IST" name="setup" finished-at="2025-01-11T15:05:48 IST" duration-ms="8197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:48 IST" name="setUp" finished-at="2025-01-11T15:05:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMenLinkTest()[pri:13, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:48 IST" name="verifyMenLinkTest" finished-at="2025-01-11T15:05:51 IST" duration-ms="2913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:51 IST" name="tearDown" finished-at="2025-01-11T15:05:51 IST" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMenLinkTest status=SUCCESS method=HomePageTest.verifyMenLinkTest()[pri:13, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:51 IST" name="setup" finished-at="2025-01-11T15:05:59 IST" duration-ms="8270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:59 IST" name="setUp" finished-at="2025-01-11T15:05:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySportsLinkTest()[pri:14, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:05:59 IST" name="verifySportsLinkTest" finished-at="2025-01-11T15:06:02 IST" duration-ms="2654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySportsLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:02 IST" name="tearDown" finished-at="2025-01-11T15:06:02 IST" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySportsLinkTest status=SUCCESS method=HomePageTest.verifySportsLinkTest()[pri:14, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:02 IST" name="setup" finished-at="2025-01-11T15:06:13 IST" duration-ms="11345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:13 IST" name="setUp" finished-at="2025-01-11T15:06:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFootwearLinkTest()[pri:15, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:13 IST" name="verifyFootwearLinkTest" finished-at="2025-01-11T15:06:17 IST" duration-ms="3705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFootwearLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:17 IST" name="tearDown" finished-at="2025-01-11T15:06:17 IST" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFootwearLinkTest status=SUCCESS method=HomePageTest.verifyFootwearLinkTest()[pri:15, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:17 IST" name="setup" finished-at="2025-01-11T15:06:27 IST" duration-ms="9806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:27 IST" name="setUp" finished-at="2025-01-11T15:06:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBagsLinkTest()[pri:16, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:27 IST" name="verifyBagsLinkTest" finished-at="2025-01-11T15:06:31 IST" duration-ms="3753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBagsLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:31 IST" name="tearDown" finished-at="2025-01-11T15:06:31 IST" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBagsLinkTest status=SUCCESS method=HomePageTest.verifyBagsLinkTest()[pri:16, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:31 IST" name="setup" finished-at="2025-01-11T15:06:36 IST" duration-ms="5186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:36 IST" name="setUp" finished-at="2025-01-11T15:06:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyWatchesAndSunglassesLinkTest()[pri:17, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:36 IST" name="verifyWatchesAndSunglassesLinkTest" finished-at="2025-01-11T15:06:38 IST" duration-ms="2309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWatchesAndSunglassesLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:38 IST" name="tearDown" finished-at="2025-01-11T15:06:39 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWatchesAndSunglassesLinkTest status=SUCCESS method=HomePageTest.verifyWatchesAndSunglassesLinkTest()[pri:17, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:39 IST" name="setup" finished-at="2025-01-11T15:06:46 IST" duration-ms="7377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:46 IST" name="setUp" finished-at="2025-01-11T15:06:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyJewelleryLinkTest()[pri:18, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:46 IST" name="verifyJewelleryLinkTest" finished-at="2025-01-11T15:06:49 IST" duration-ms="2800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJewelleryLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:49 IST" name="tearDown" finished-at="2025-01-11T15:06:49 IST" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyJewelleryLinkTest status=SUCCESS method=HomePageTest.verifyJewelleryLinkTest()[pri:18, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:49 IST" name="setup" finished-at="2025-01-11T15:06:57 IST" duration-ms="7773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:57 IST" name="setUp" finished-at="2025-01-11T15:06:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyKidsLinkTest()[pri:19, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:06:57 IST" name="verifyKidsLinkTest" finished-at="2025-01-11T15:07:00 IST" duration-ms="3493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKidsLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:00 IST" name="tearDown" finished-at="2025-01-11T15:07:00 IST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyKidsLinkTest status=SUCCESS method=HomePageTest.verifyKidsLinkTest()[pri:19, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:00 IST" name="setup" finished-at="2025-01-11T15:07:06 IST" duration-ms="5592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:06 IST" name="setUp" finished-at="2025-01-11T15:07:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomeAndLifeStyleLinkTest()[pri:20, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:06 IST" name="verifyHomeAndLifeStyleLinkTest" finished-at="2025-01-11T15:07:09 IST" duration-ms="2602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeAndLifeStyleLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:09 IST" name="tearDown" finished-at="2025-01-11T15:07:09 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomeAndLifeStyleLinkTest status=SUCCESS method=HomePageTest.verifyHomeAndLifeStyleLinkTest()[pri:20, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:09 IST" name="setup" finished-at="2025-01-11T15:07:18 IST" duration-ms="8961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:18 IST" name="setUp" finished-at="2025-01-11T15:07:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFoodAndBeverageLinkTest()[pri:21, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:18 IST" name="verifyFoodAndBeverageLinkTest" finished-at="2025-01-11T15:07:22 IST" duration-ms="3989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFoodAndBeverageLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:22 IST" name="tearDown" finished-at="2025-01-11T15:07:22 IST" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFoodAndBeverageLinkTest status=SUCCESS method=HomePageTest.verifyFoodAndBeverageLinkTest()[pri:21, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:22 IST" name="setup" finished-at="2025-01-11T15:07:32 IST" duration-ms="10483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:32 IST" name="setUp" finished-at="2025-01-11T15:07:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySouvenirsAndGiftsLinkTest()[pri:22, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:32 IST" name="verifySouvenirsAndGiftsLinkTest" finished-at="2025-01-11T15:07:35 IST" duration-ms="3154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySouvenirsAndGiftsLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:35 IST" name="tearDown" finished-at="2025-01-11T15:07:36 IST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySouvenirsAndGiftsLinkTest status=SUCCESS method=HomePageTest.verifySouvenirsAndGiftsLinkTest()[pri:22, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:36 IST" name="setup" finished-at="2025-01-11T15:07:45 IST" duration-ms="9351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageLinkTest()[pri:23, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:45 IST" name="verifyLoginPageLinkTest" finished-at="2025-01-11T15:07:48 IST" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageLinkTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:45 IST" name="setUp" finished-at="2025-01-11T15:07:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:48 IST" name="tearDown" finished-at="2025-01-11T15:07:48 IST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageLinkTest status=SUCCESS method=HomePageTest.verifyLoginPageLinkTest()[pri:23, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:48 IST" name="setup" finished-at="2025-01-11T15:07:57 IST" duration-ms="9104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignUpLinkTest()[pri:24, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:57 IST" name="verifySignUpLinkTest" finished-at="2025-01-11T15:07:59 IST" duration-ms="2094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:57 IST" name="setUp" finished-at="2025-01-11T15:07:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.HomePageTest@324a0017]" started-at="2025-01-11T15:07:59 IST" name="tearDown" finished-at="2025-01-11T15:07:59 IST" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignUpLinkTest status=SUCCESS method=HomePageTest.verifySignUpLinkTest()[pri:24, instance:com.odel.test.HomePageTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.odel.test.HomePageTest -->
+      <class name="com.odel.test.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:07:59 IST" name="setup" finished-at="2025-01-11T15:08:09 IST" duration-ms="9783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:09 IST" name="setUp" finished-at="2025-01-11T15:08:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:09 IST" name="verifyLoginPageTitleTest" finished-at="2025-01-11T15:08:11 IST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:11 IST" name="tearDown" finished-at="2025-01-11T15:08:11 IST" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageTitleTest status=SUCCESS method=LoginPageTest.verifyLoginPageTitleTest()[pri:1, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:11 IST" name="setup" finished-at="2025-01-11T15:08:21 IST" duration-ms="10396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:21 IST" name="setUp" finished-at="2025-01-11T15:08:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageLabelTest()[pri:2, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:21 IST" name="verifyLoginPageLabelTest" finished-at="2025-01-11T15:08:23 IST" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageLabelTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:23 IST" name="tearDown" finished-at="2025-01-11T15:08:24 IST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageLabelTest status=SUCCESS method=LoginPageTest.verifyLoginPageLabelTest()[pri:2, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:24 IST" name="setup" finished-at="2025-01-11T15:08:31 IST" duration-ms="6916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:31 IST" name="setUp" finished-at="2025-01-11T15:08:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageLogoClickTest()[pri:3, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:31 IST" name="verifyLoginPageLogoClickTest" finished-at="2025-01-11T15:08:33 IST" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageLogoClickTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:33 IST" name="tearDown" finished-at="2025-01-11T15:08:33 IST" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageLogoClickTest status=SUCCESS method=LoginPageTest.verifyLoginPageLogoClickTest()[pri:3, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:33 IST" name="setup" finished-at="2025-01-11T15:08:44 IST" duration-ms="10431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:44 IST" name="setUp" finished-at="2025-01-11T15:08:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="welcomeTextDisplayTest()[pri:4, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:44 IST" name="welcomeTextDisplayTest" finished-at="2025-01-11T15:08:46 IST" duration-ms="1995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeTextDisplayTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:46 IST" name="tearDown" finished-at="2025-01-11T15:08:46 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=welcomeTextDisplayTest status=SUCCESS method=LoginPageTest.welcomeTextDisplayTest()[pri:4, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:46 IST" name="setup" finished-at="2025-01-11T15:08:52 IST" duration-ms="6579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:52 IST" name="setUp" finished-at="2025-01-11T15:08:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySignUpPageButtonClickTest()[pri:5, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:52 IST" name="verifySignUpPageButtonClickTest" finished-at="2025-01-11T15:08:54 IST" duration-ms="1472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPageButtonClickTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:54 IST" name="tearDown" finished-at="2025-01-11T15:08:54 IST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignUpPageButtonClickTest status=SUCCESS method=LoginPageTest.verifySignUpPageButtonClickTest()[pri:5, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:54 IST" name="setup" finished-at="2025-01-11T15:08:59 IST" duration-ms="5166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:59 IST" name="setUp" finished-at="2025-01-11T15:08:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageBackButtonClickTest()[pri:6, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:08:59 IST" name="verifyLoginPageBackButtonClickTest" finished-at="2025-01-11T15:09:00 IST" duration-ms="999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageBackButtonClickTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:00 IST" name="tearDown" finished-at="2025-01-11T15:09:00 IST" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageBackButtonClickTest status=SUCCESS method=LoginPageTest.verifyLoginPageBackButtonClickTest()[pri:6, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:00 IST" name="setup" finished-at="2025-01-11T15:09:06 IST" duration-ms="5070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:06 IST" name="setUp" finished-at="2025-01-11T15:09:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="passwordMaskingTest()[pri:7, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:06 IST" name="passwordMaskingTest" finished-at="2025-01-11T15:09:07 IST" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordMaskingTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:07 IST" name="tearDown" finished-at="2025-01-11T15:09:07 IST" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passwordMaskingTest status=SUCCESS method=LoginPageTest.passwordMaskingTest()[pri:7, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:07 IST" name="setup" finished-at="2025-01-11T15:09:16 IST" duration-ms="8865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:16 IST" name="setUp" finished-at="2025-01-11T15:09:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="forgotPasswordLinkTest()[pri:8, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:16 IST" name="forgotPasswordLinkTest" finished-at="2025-01-11T15:09:17 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordLinkTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:17 IST" name="tearDown" finished-at="2025-01-11T15:09:17 IST" duration-ms="173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPasswordLinkTest status=SUCCESS method=LoginPageTest.forgotPasswordLinkTest()[pri:8, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:18 IST" name="setup" finished-at="2025-01-11T15:09:25 IST" duration-ms="7079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:25 IST" name="setUp" finished-at="2025-01-11T15:09:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:25 IST" name="verifyLoginCredentials" data-provider="getTestData" finished-at="2025-01-11T15:09:32 IST" duration-ms="6918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bothcorrect]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rixopo9775@wirelay.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[#Abc1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:32 IST" name="tearDown" finished-at="2025-01-11T15:09:32 IST" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginCredentials status=SUCCESS method=LoginPageTest.verifyLoginCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:32 IST" name="setup" finished-at="2025-01-11T15:09:42 IST" duration-ms="9890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:42 IST" name="setUp" finished-at="2025-01-11T15:09:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:42 IST" name="verifyLoginCredentials" data-provider="getTestData" finished-at="2025-01-11T15:09:48 IST" duration-ms="5969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bothwrong]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:48 IST" name="tearDown" finished-at="2025-01-11T15:09:48 IST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginCredentials status=SUCCESS method=LoginPageTest.verifyLoginCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:48 IST" name="setup" finished-at="2025-01-11T15:09:58 IST" duration-ms="9844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:58 IST" name="setUp" finished-at="2025-01-11T15:09:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:09:58 IST" name="verifyLoginCredentials" data-provider="getTestData" finished-at="2025-01-11T15:10:02 IST" duration-ms="4315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[correctusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rixopo9775@wirelay.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:10:02 IST" name="tearDown" finished-at="2025-01-11T15:10:02 IST" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginCredentials status=SUCCESS method=LoginPageTest.verifyLoginCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:10:02 IST" name="setup" finished-at="2025-01-11T15:10:12 IST" duration-ms="10038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:10:12 IST" name="setUp" finished-at="2025-01-11T15:10:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:10:12 IST" name="verifyLoginCredentials" data-provider="getTestData" finished-at="2025-01-11T15:10:18 IST" duration-ms="5910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[correctpassword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[#Abc1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.LoginPageTest@146587a2]" started-at="2025-01-11T15:10:18 IST" name="tearDown" finished-at="2025-01-11T15:10:18 IST" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginCredentials status=SUCCESS method=LoginPageTest.verifyLoginCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:com.odel.test.LoginPageTest@146587a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.odel.test.LoginPageTest -->
+      <class name="com.odel.test.UniSexPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.UniSexPageTest@16c63f5]" started-at="2025-01-11T15:12:03 IST" name="setup" finished-at="2025-01-11T15:12:13 IST" duration-ms="9656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.UniSexPageTest@16c63f5]" started-at="2025-01-11T15:12:13 IST" name="setUp" finished-at="2025-01-11T15:12:18 IST" duration-ms="5060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUniSexPageLabelTest()[pri:1, instance:com.odel.test.UniSexPageTest@16c63f5]" started-at="2025-01-11T15:12:18 IST" name="verifyUniSexPageLabelTest" finished-at="2025-01-11T15:12:18 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniSexPageLabelTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.UniSexPageTest@16c63f5]" started-at="2025-01-11T15:12:18 IST" name="tearDown" finished-at="2025-01-11T15:12:18 IST" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUniSexPageLabelTest status=SUCCESS method=UniSexPageTest.verifyUniSexPageLabelTest()[pri:1, instance:com.odel.test.UniSexPageTest@16c63f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.odel.test.UniSexPageTest -->
+      <class name="com.odel.test.ShopByBrandsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.ShopByBrandsPageTest@2a898881]" started-at="2025-01-11T15:11:40 IST" name="setup" finished-at="2025-01-11T15:11:48 IST" duration-ms="8093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.ShopByBrandsPageTest@2a898881]" started-at="2025-01-11T15:11:48 IST" name="setUp" finished-at="2025-01-11T15:11:51 IST" duration-ms="3475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyShopByBrandsPageTitleTest()[pri:1, instance:com.odel.test.ShopByBrandsPageTest@2a898881]" started-at="2025-01-11T15:11:51 IST" name="verifyShopByBrandsPageTitleTest" finished-at="2025-01-11T15:11:51 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopByBrandsPageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.ShopByBrandsPageTest@2a898881]" started-at="2025-01-11T15:11:51 IST" name="tearDown" finished-at="2025-01-11T15:11:52 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyShopByBrandsPageTitleTest status=SUCCESS method=ShopByBrandsPageTest.verifyShopByBrandsPageTitleTest()[pri:1, instance:com.odel.test.ShopByBrandsPageTest@2a898881] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.ShopByBrandsPageTest@2a898881]" started-at="2025-01-11T15:11:52 IST" name="setup" finished-at="2025-01-11T15:12:00 IST" duration-ms="8388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.ShopByBrandsPageTest@2a898881]" started-at="2025-01-11T15:12:00 IST" name="setUp" finished-at="2025-01-11T15:12:03 IST" duration-ms="2882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyShopByBrandsPageLabelTest()[pri:2, instance:com.odel.test.ShopByBrandsPageTest@2a898881]" started-at="2025-01-11T15:12:03 IST" name="verifyShopByBrandsPageLabelTest" finished-at="2025-01-11T15:12:03 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopByBrandsPageLabelTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.ShopByBrandsPageTest@2a898881]" started-at="2025-01-11T15:12:03 IST" name="tearDown" finished-at="2025-01-11T15:12:03 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyShopByBrandsPageLabelTest status=SUCCESS method=ShopByBrandsPageTest.verifyShopByBrandsPageLabelTest()[pri:2, instance:com.odel.test.ShopByBrandsPageTest@2a898881] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.odel.test.ShopByBrandsPageTest -->
+      <class name="com.odel.test.NewCollectionPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.NewCollectionPageTest@126945f9]" started-at="2025-01-11T15:11:25 IST" name="setup" finished-at="2025-01-11T15:11:34 IST" duration-ms="9143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.NewCollectionPageTest@126945f9]" started-at="2025-01-11T15:11:34 IST" name="setUp" finished-at="2025-01-11T15:11:40 IST" duration-ms="5156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNewCollectionPageTitleTest()[pri:1, instance:com.odel.test.NewCollectionPageTest@126945f9]" started-at="2025-01-11T15:11:40 IST" name="verifyNewCollectionPageTitleTest" finished-at="2025-01-11T15:11:40 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewCollectionPageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.NewCollectionPageTest@126945f9]" started-at="2025-01-11T15:11:40 IST" name="tearDown" finished-at="2025-01-11T15:11:40 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewCollectionPageTitleTest status=SUCCESS method=NewCollectionPageTest.verifyNewCollectionPageTitleTest()[pri:1, instance:com.odel.test.NewCollectionPageTest@126945f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.odel.test.NewCollectionPageTest -->
+      <class name="com.odel.test.DealsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.odel.test.DealsPageTest@76884e4b]" started-at="2025-01-11T15:11:15 IST" name="setup" finished-at="2025-01-11T15:11:22 IST" duration-ms="7601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.odel.test.DealsPageTest@76884e4b]" started-at="2025-01-11T15:11:22 IST" name="setUp" finished-at="2025-01-11T15:11:25 IST" duration-ms="2707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDealsPageTitleTest()[pri:1, instance:com.odel.test.DealsPageTest@76884e4b]" started-at="2025-01-11T15:11:25 IST" name="verifyDealsPageTitleTest" finished-at="2025-01-11T15:11:25 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDealsPageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.odel.test.DealsPageTest@76884e4b]" started-at="2025-01-11T15:11:25 IST" name="tearDown" finished-at="2025-01-11T15:11:25 IST" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDealsPageTitleTest status=SUCCESS method=DealsPageTest.verifyDealsPageTitleTest()[pri:1, instance:com.odel.test.DealsPageTest@76884e4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.odel.test.DealsPageTest -->
+    </test> <!-- Test Automation Framework Test Cases -->
+  </suite> <!-- Test Automation Framework Test Suite -->
+</testng-results>

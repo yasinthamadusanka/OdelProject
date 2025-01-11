@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Framework Test Suite">
+<listeners>
+        <listener class-name="com.odel.utilities.ExtentReportListener"/>
+    </listeners>
+  <test name="Test Automation Framework Test Cases">
+    <classes>
+      <class name="com.odel.test.HomePageTest"/>
+      <class name="com.odel.test.LoginPageTest"/>
+      <class name="com.odel.test.SignUpPageTest"/>
+      <class name="com.odel.test.DealsPageTest"/>
+      <class name="com.odel.test.NewCollectionPageTest"/>
+      <class name="com.odel.test.ShopByBrandsPageTest"/>
+      <class name="com.odel.test.UniSexPageTest"/>
+      <class name="com.odel.test.WomenPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
