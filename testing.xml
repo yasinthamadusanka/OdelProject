@@ -9,10 +9,20 @@
       <class name="com.odel.test.HomePageTest"/>
       <class name="com.odel.test.LoginPageTest"/>
       <class name="com.odel.test.SignUpPageTest"/>
+      <class name="com.odel.test.BagsPageTest"/>
       <class name="com.odel.test.DealsPageTest"/>
+      <class name="com.odel.test.FoodAndBeveragePageTest"/>
+      <class name="com.odel.test.FootwearPageTest"/>
+      <class name="com.odel.test.HomeAndLifeStylePageTest"/>
+      <class name="com.odel.test.JewelleryPageTest"/>
+      <class name="com.odel.test.KidsPageTest"/>
+      <class name="com.odel.test.MenPageTest"/>
       <class name="com.odel.test.NewCollectionPageTest"/>
       <class name="com.odel.test.ShopByBrandsPageTest"/>
+      <class name="com.odel.test.SouvenirsAndGiftsPageTest"/>
+      <class name="com.odel.test.SportsPageTest"/>
       <class name="com.odel.test.UniSexPageTest"/>
+      <class name="com.odel.test.WatchesAndSunglassesPageTest"/>
       <class name="com.odel.test.WomenPageTest"/>
     </classes>
   </test> <!-- Test -->
