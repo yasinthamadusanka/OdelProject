@@ -23,6 +23,6 @@ public class MenPageTest extends BaseClass{
 	@Test(priority=1)
 	public void verifyMenPageTitleTest() {
 		String menPageTitle = menPage.verifyMenPageTitle();
-		Assert.assertEquals(menPageTitle, "MENS | Odel.lk","Deals page title not matched");
+		Assert.assertEquals(menPageTitle, "MENS | Odel.lk","MENS page title not matched");
 	}
 }

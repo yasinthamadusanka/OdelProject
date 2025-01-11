@@ -23,6 +23,6 @@ public class KidsPageTest extends BaseClass{
 	@Test(priority=1)
 	public void verifyKidsPageTitleTest() {
 		String kidsPageTitle = kidsPage.verifyKidsPageTitle();
-		Assert.assertEquals(kidsPageTitle, "KIDS | Odel.lk","Deals page title not matched");
+		Assert.assertEquals(kidsPageTitle, "KIDS | Odel.lk","KIDS page title not matched");
 	}
 }

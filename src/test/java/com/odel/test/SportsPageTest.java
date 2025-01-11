@@ -22,6 +22,6 @@ public class SportsPageTest extends BaseClass{
 	@Test(priority=1)
 	public void verifySportsPageTitleTest() {
 		String sportsPageTitle = sportsPage.verifySportsPageTitle();
-		Assert.assertEquals(sportsPageTitle, "Sports & Fitness | Odel.lk","Deals page title not matched");
+		Assert.assertEquals(sportsPageTitle, "Sports & Fitness | Odel.lk","Sports & Fitness page title not matched");
 	}
 }

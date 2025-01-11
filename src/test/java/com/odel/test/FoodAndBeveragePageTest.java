@@ -23,6 +23,6 @@ public class FoodAndBeveragePageTest extends BaseClass{
 	@Test(priority=1)
 	public void verifyFoodAndBeveragePageTitleTest() {
 		String foodAndBeveragePageTitle = foodAndBeveragePage.verifyFoodAndBeveragePageTitle();
-		Assert.assertEquals(foodAndBeveragePageTitle, "FOOD & BEVERAGES | Odel.lk","Deals page title not matched");
+		Assert.assertEquals(foodAndBeveragePageTitle, "FOOD & BEVERAGES | Odel.lk","FOOD & BEVERAGES page title not matched");
 	}
 }

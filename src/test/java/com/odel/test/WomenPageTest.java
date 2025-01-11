@@ -21,6 +21,6 @@ public class WomenPageTest extends BaseClass{
 	
 	@Test(priority=1)
 	public void verifyUniSexPageLabelTest() {
-		Assert.assertTrue(womenPage.verifyWomenLabel(),"UniSex Label is missing");
+		Assert.assertTrue(womenPage.verifyWomenLabel(),"Women Page Label is missing");
 	}
 }

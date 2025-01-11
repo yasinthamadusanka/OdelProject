@@ -23,7 +23,7 @@ public class FootwearPageTest extends BaseClass{
 	@Test(priority=1)
 	public void verifyFootwearPageTitleTest() {
 		String footwearPageTitle = footwearPage.verifyFootwearPageTitle();
-		Assert.assertEquals(footwearPageTitle, "BAGS & SHOES | Odel.lk","Deals page title not matched");
+		Assert.assertEquals(footwearPageTitle, "BAGS & SHOES | Odel.lk","BAGS & SHOES page title not matched");
 	}
 
 }

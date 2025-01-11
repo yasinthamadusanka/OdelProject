@@ -23,6 +23,6 @@ public class SouvenirsAndGiftsPageTest extends BaseClass{
 	@Test(priority=1)
 	public void verifySouvenirsAndGiftsPageTitleTest() {
 		String souvenirsAndGiftsPageTitle = souvenirsAndGiftsPage.verifySouvenirsAndGiftsPageTitle();
-		Assert.assertEquals(souvenirsAndGiftsPageTitle, "SOUVENIRS & GIFTS | Odel.lk","Deals page title not matched");
+		Assert.assertEquals(souvenirsAndGiftsPageTitle, "SOUVENIRS & GIFTS | Odel.lk","SOUVENIRS & GIFTS page title not matched");
 	}
 }

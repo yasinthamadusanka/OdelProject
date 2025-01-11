@@ -23,6 +23,6 @@ public class WatchesAndSunglassesPageTest extends BaseClass{
 	@Test(priority=1)
 	public void verifyWatchesAndSunglassesPageTitleTest() {
 		String watchesAndSunglassesPageTitle = watchesAndSunglassesPage.verifyWatchesAndSunglassesPageTitle();
-		Assert.assertEquals(watchesAndSunglassesPageTitle, "WATECHES & SUNGLASSES | Odel.lk","Deals page title not matched");
+		Assert.assertEquals(watchesAndSunglassesPageTitle, "WATECHES & SUNGLASSES | Odel.lk","WATECHES & SUNGLASSES page title not matched");
 	}
 }

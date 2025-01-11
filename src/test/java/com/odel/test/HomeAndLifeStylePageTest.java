@@ -23,6 +23,6 @@ public class HomeAndLifeStylePageTest extends BaseClass{
 	@Test(priority=1)
 	public void verifyHomeAndLifeStylePageTitleTest() {
 		String homeAndLifeStylePageTitle = homeAndLifeStylePage.verifyHomeAndLifeStylePageTitle();
-		Assert.assertEquals(homeAndLifeStylePageTitle, "HOME & LIFESTYLE | Odel.lk","Deals page title not matched");
+		Assert.assertEquals(homeAndLifeStylePageTitle, "HOME & LIFESTYLE | Odel.lk","HOME & LIFESTYLE page title not matched");
 	}
 }
