@@ -189,4 +189,18 @@ public class HomePageTest extends BaseClass{
 		signUpPage = homePage.clickOnSignUpLink();
 	}
 	
+	@Test(priority=25)
+	public void verifyProfileIconRedirectionTest() {
+	    homePage.clickOnProfileIcon();
+	    Assert.assertTrue(homePage.isLoginToProfileMessageDisplayed(),"Error message is not displayed");
+	}
+	
+	@Test(priority=26)
+	public void verifyProfileAfterlogin() {
+		homePage.clickOnAccountCircleLogin();
+		loginPage.login("rixopo9775@wirelay.com", "#Abc1234");
+		homePage.clickOnProfileIcon();
+		Assert.assertTrue(homePage.verifyMyAccountDisplay(),"My Account is not displayed");
+	}
+	
 }

@@ -15,6 +15,9 @@ public class HomePage extends BaseClass{
 	@FindBy(xpath="//ul[@class='main-menu']//a[normalize-space()='Deals']")
 	WebElement dealsLink;
 	
+	@FindBy(xpath="//div[@role='alert']")
+	WebElement profileErrorMessage;
+	
 	@FindBy(xpath="//ul[@class='main-menu']//a[normalize-space()='New Collection']")
 	WebElement newCollectionLink;
 	
@@ -79,6 +82,10 @@ public class HomePage extends BaseClass{
 	@FindBy(xpath = "//a[@class='dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 col-4 my_fav_icon__']//i[@class='zmdi zmdi-favorite-outline']")
     WebElement profileIcon;
 	
+	@FindBy(xpath = "//a[@id='v-myaccount']")
+    WebElement myAccountLink;
+	
+	
 	
 	public HomePage() {
 		PageFactory.initElements(driver, this);
@@ -110,8 +117,20 @@ public class HomePage extends BaseClass{
 		return profileIcon.isDisplayed();
 	}
 	
+	public void clickOnProfileIcon() {
+        profileIcon.click();
+    }
+	
+	public boolean isLoginToProfileMessageDisplayed() {
+        return profileErrorMessage.isDisplayed();
+    }
+	
 	public boolean verifyAccountIconDisplay() {
 		return accountCircle.isDisplayed();
+	}
+	
+	public boolean verifyMyAccountDisplay() {
+		return myAccountLink.isDisplayed();
 	}
 	
 	public HomePage clickOnLogo() {

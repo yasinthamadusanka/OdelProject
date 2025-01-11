@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.odel.test.WatchesAndSunglassesPageTest">
+      <class name="com.odel.test.HomePageTest">
         <methods>
-          <include name="setUp"/>
+          <include name="verifyProfileAfterlogin"/>
           <include name="loadConfig"/>
           <include name="setup"/>
-          <include name="verifyWatchesAndSunglassesPageTitleTest"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.odel.test.WatchesAndSunglassesPageTest -->
+      </class> <!-- com.odel.test.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
