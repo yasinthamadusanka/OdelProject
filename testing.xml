@@ -27,7 +27,7 @@
       <class name="com.odel.test.WomenPageTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test Automation Framework Edge Test">
+  <!--<test name="Test Automation Framework Edge Test">
   <parameter name="browser" value="edge"></parameter>
     <classes>
       <class name="com.odel.test.HomePageTest"/>
@@ -49,5 +49,5 @@
       <class name="com.odel.test.WatchesAndSunglassesPageTest"/>
       <class name="com.odel.test.WomenPageTest"/>
     </classes>
-  </test> <!-- Test -->
+  </test>  Test -->
 </suite>

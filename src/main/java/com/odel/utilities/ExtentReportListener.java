@@ -24,9 +24,11 @@ public class ExtentReportListener extends BaseClass implements ITestListener{
 	private ExtentReports extent;
     private ExtentTest node;
 
-    
+    public void onTestStart(ITestResult result) {
+    	System.out.println(result.getMethod().getMethodName() + " is Started");
+    }
     public void onStart(ITestContext context) {
-    	
+    	System.out.println("Start the "+ context.getName()+ " execution");
         String reportDir = Paths.get("src", "test", "resources", "ExtentReport").toAbsolutePath().toString();
         File directory = new File(reportDir);
         if (!directory.exists()) {
@@ -58,11 +60,13 @@ public class ExtentReportListener extends BaseClass implements ITestListener{
     }
     
     public void onTestSuccess(ITestResult result) {
+    	System.out.println(result.getMethod().getMethodName() + " is Passed");
     	node = extent.createTest(result.getName());
     	node.log(Status.PASS, "Test case PASSED is:" +result.getName());
     }
     
     public void onTestFailure(ITestResult result) {
+    	System.out.println("Failed" + result.getThrowable());
     	node = extent.createTest(result.getName());
     	node.log(Status.FAIL, "Test case FAILED is:" +result.getName());
     	node.log(Status.FAIL, "Test case FAILED cause is:" +result.getThrowable());
@@ -77,11 +81,13 @@ public class ExtentReportListener extends BaseClass implements ITestListener{
     }
     
     public void onTestSkipped(ITestResult result) {
+    	System.out.println("Skipped" + result.getThrowable());
     	node = extent.createTest(result.getName());
     	node.log(Status.SKIP, "Test case SKIPPED is:" +result.getName());
     }
     
     public void onFinish(ITestContext context) {
+    	System.out.println("Finished the "+ context.getName()+ "execution");
     	extent.flush();
     	
     	String reportDir = Paths.get("src", "test", "resources", "ExtentReport").toAbsolutePath().toString();

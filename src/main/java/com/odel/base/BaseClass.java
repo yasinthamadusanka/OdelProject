@@ -38,6 +38,7 @@ public class BaseClass {
 	@Parameters("browser")
 	@BeforeMethod
 	public void setup(String browser) throws IOException {
+		System.out.println();
 		System.out.println("Setting up WebDriver for:" + this.getClass().getSimpleName());
 		launchBrowser(browser);
 		configureBrowser();
