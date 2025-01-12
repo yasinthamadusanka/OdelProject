@@ -1,0 +1,379 @@
+<html>
+<head>
+<title>TestNG:  Test Automation Framework Edge Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test Automation Framework Edge Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>60/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jan 12 14:16:28 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>784 seconds (784674 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyHomePageCartIconTest()'><b>verifyHomePageCartIconTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyProfileIconRedirectionTest()'><b>verifyProfileIconRedirectionTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.SignUpPageTest.verifySignUpPageLabelTest()'><b>verifySignUpPageLabelTest</b><br>Test class: com.odel.test.SignUpPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.odel.test.SignUpPageTest@7530ad9c</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.verifySignUpPageButtonClickTest()'><b>verifySignUpPageButtonClickTest</b><br>Test class: com.odel.test.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.SignUpPageTest.verifySignUpPageLogoClickTest()'><b>verifySignUpPageLogoClickTest</b><br>Test class: com.odel.test.SignUpPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.SignUpPageTest@7530ad9c</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyHomePageLogoTest()'><b>verifyHomePageLogoTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.FootwearPageTest.verifyFootwearPageTitleTest()'><b>verifyFootwearPageTitleTest</b><br>Test class: com.odel.test.FootwearPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.FootwearPageTest@4961f6af</td></tr>
+<tr>
+<td title='com.odel.test.KidsPageTest.verifyKidsPageTitleTest()'><b>verifyKidsPageTitleTest</b><br>Test class: com.odel.test.KidsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.KidsPageTest@33c911a1</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyWatchesAndSunglassesLinkTest()'><b>verifyWatchesAndSunglassesLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.passwordMaskingTest()'><b>passwordMaskingTest</b><br>Test class: com.odel.test.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyUniSexLinkTest()'><b>verifyUniSexLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>4</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.ShopByBrandsPageTest.verifyShopByBrandsPageTitleTest()'><b>verifyShopByBrandsPageTitleTest</b><br>Test class: com.odel.test.ShopByBrandsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.ShopByBrandsPageTest@1190200a</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyHomePageProfileIconTest()'><b>verifyHomePageProfileIconTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifySignUpLinkTest()'><b>verifySignUpLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyNewCollectionLinkTest()'><b>verifyNewCollectionLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.MenPageTest.verifyMenPageTitleTest()'><b>verifyMenPageTitleTest</b><br>Test class: com.odel.test.MenPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.MenPageTest@75db5df9</td></tr>
+<tr>
+<td title='com.odel.test.FoodAndBeveragePageTest.verifyFoodAndBeveragePageTitleTest()'><b>verifyFoodAndBeveragePageTitleTest</b><br>Test class: com.odel.test.FoodAndBeveragePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.FoodAndBeveragePageTest@394df057</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyHomePageLogoClickTest()'><b>verifyHomePageLogoClickTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyFootwearLinkTest()'><b>verifyFootwearLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyHomePageAccountIconTest()'><b>verifyHomePageAccountIconTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.DealsPageTest.verifyDealsPageTitleTest()'><b>verifyDealsPageTitleTest</b><br>Test class: com.odel.test.DealsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.DealsPageTest@71e9ddb4</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyHomeAndLifeStyleLinkTest()'><b>verifyHomeAndLifeStyleLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.SignUpPageTest.verifyLoginPageButtonClickTest()'><b>verifyLoginPageButtonClickTest</b><br>Test class: com.odel.test.SignUpPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.SignUpPageTest@7530ad9c</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.verifyLoginCredentials()'><b>verifyLoginCredentials</b><br>Test class: com.odel.test.LoginPageTest<br>Parameters: correctpassword, admin@gmail.com, #Abc1234</td>
+<td></td>
+<td>5</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.verifyLoginPageBackButtonClickTest()'><b>verifyLoginPageBackButtonClickTest</b><br>Test class: com.odel.test.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.HomeAndLifeStylePageTest.verifyHomeAndLifeStylePageTitleTest()'><b>verifyHomeAndLifeStylePageTitleTest</b><br>Test class: com.odel.test.HomeAndLifeStylePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.HomeAndLifeStylePageTest@5aebe890</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyJewelleryLinkTest()'><b>verifyJewelleryLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.verifyLoginCredentials()'><b>verifyLoginCredentials</b><br>Test class: com.odel.test.LoginPageTest<br>Parameters: bothcorrect, rixopo9775@wirelay.com, #Abc1234</td>
+<td></td>
+<td>7</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifySportsLinkTest()'><b>verifySportsLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.welcomeTextDisplayTest()'><b>welcomeTextDisplayTest</b><br>Test class: com.odel.test.LoginPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyLoginPageLinkTest()'><b>verifyLoginPageLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.JewelleryPageTest.verifyJewelleryPageTitleTest()'><b>verifyJewelleryPageTitleTest</b><br>Test class: com.odel.test.JewelleryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.JewelleryPageTest@65d09a04</td></tr>
+<tr>
+<td title='com.odel.test.ShopByBrandsPageTest.verifyShopByBrandsPageLabelTest()'><b>verifyShopByBrandsPageLabelTest</b><br>Test class: com.odel.test.ShopByBrandsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.ShopByBrandsPageTest@1190200a</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyHomePageTitleTest()'><b>verifyHomePageTitleTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.SignUpPageTest.welcomeTextDisplayTest()'><b>welcomeTextDisplayTest</b><br>Test class: com.odel.test.SignUpPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.odel.test.SignUpPageTest@7530ad9c</td></tr>
+<tr>
+<td title='com.odel.test.SouvenirsAndGiftsPageTest.verifySouvenirsAndGiftsPageTitleTest()'><b>verifySouvenirsAndGiftsPageTitleTest</b><br>Test class: com.odel.test.SouvenirsAndGiftsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.SouvenirsAndGiftsPageTest@6a2f6f80</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyShopByBrandsLinkTest()'><b>verifyShopByBrandsLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyBagsLinkTest()'><b>verifyBagsLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.verifyLoginPageLabelTest()'><b>verifyLoginPageLabelTest</b><br>Test class: com.odel.test.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.UniSexPageTest.verifyUniSexPageLabelTest()'><b>verifyUniSexPageLabelTest</b><br>Test class: com.odel.test.UniSexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.UniSexPageTest@399c4be1</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyWomenLinkTest()'><b>verifyWomenLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.NewCollectionPageTest.verifyNewCollectionPageTitleTest()'><b>verifyNewCollectionPageTitleTest</b><br>Test class: com.odel.test.NewCollectionPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.NewCollectionPageTest@707194ba</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.verifyLoginPageTitleTest()'><b>verifyLoginPageTitleTest</b><br>Test class: com.odel.test.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.verifyLoginCredentials()'><b>verifyLoginCredentials</b><br>Test class: com.odel.test.LoginPageTest<br>Parameters: bothwrong, admin@gmail.com, admin1234</td>
+<td></td>
+<td>5</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.verifyLoginCredentials()'><b>verifyLoginCredentials</b><br>Test class: com.odel.test.LoginPageTest<br>Parameters: correctusername, rixopo9775@wirelay.com, admin1234</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.WomenPageTest.verifyUniSexPageLabelTest()'><b>verifyUniSexPageLabelTest</b><br>Test class: com.odel.test.WomenPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.WomenPageTest@5b94b04d</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyMenLinkTest()'><b>verifyMenLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyFoodAndBeverageLinkTest()'><b>verifyFoodAndBeverageLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyHomePageSearchIconTest()'><b>verifyHomePageSearchIconTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.SignUpPageTest.verifySignUpPageTitleTest()'><b>verifySignUpPageTitleTest</b><br>Test class: com.odel.test.SignUpPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.odel.test.SignUpPageTest@7530ad9c</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyProfileAfterlogin()'><b>verifyProfileAfterlogin</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>16</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.BagsPageTest.verifyBagsPageTitleTest()'><b>verifyBagsPageTitleTest</b><br>Test class: com.odel.test.BagsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.BagsPageTest@58a9760d</td></tr>
+<tr>
+<td title='com.odel.test.WatchesAndSunglassesPageTest.verifyWatchesAndSunglassesPageTitleTest()'><b>verifyWatchesAndSunglassesPageTitleTest</b><br>Test class: com.odel.test.WatchesAndSunglassesPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.WatchesAndSunglassesPageTest@385e9564</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyDealsLinkTest()'><b>verifyDealsLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.verifyLoginPageLogoClickTest()'><b>verifyLoginPageLogoClickTest</b><br>Test class: com.odel.test.LoginPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.SignUpPageTest.forgotPasswordLinkTest()'><b>forgotPasswordLinkTest</b><br>Test class: com.odel.test.SignUpPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.SignUpPageTest@7530ad9c</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifySouvenirsAndGiftsLinkTest()'><b>verifySouvenirsAndGiftsLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.LoginPageTest.forgotPasswordLinkTest()'><b>forgotPasswordLinkTest</b><br>Test class: com.odel.test.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.odel.test.LoginPageTest@4e50c791</td></tr>
+<tr>
+<td title='com.odel.test.HomePageTest.verifyKidsLinkTest()'><b>verifyKidsLinkTest</b><br>Test class: com.odel.test.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.odel.test.HomePageTest@5fbe4146</td></tr>
+<tr>
+<td title='com.odel.test.SportsPageTest.verifySportsPageTitleTest()'><b>verifySportsPageTitleTest</b><br>Test class: com.odel.test.SportsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.odel.test.SportsPageTest@45b4c3a9</td></tr>
+</table><p>
+</body>
+</html>

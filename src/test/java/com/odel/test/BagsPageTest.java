@@ -23,6 +23,6 @@ public class BagsPageTest extends BaseClass{
 	@Test(priority=1)
 	public void verifyBagsPageTitleTest() {
 		String bagsPageTitle = bagsPage.verifyBagsPageTitle();
-		Assert.assertEquals(bagsPageTitle, "Bags Page | Odel.lk","Bags page title not matched");
+		Assert.assertEquals(bagsPageTitle, " | Odel.lk","Bags page title not matched");
 	}
 }

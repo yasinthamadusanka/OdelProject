@@ -19,6 +19,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.odel.utilities.TestUtil;
 
@@ -33,17 +34,18 @@ public class BaseClass {
 				System.getProperty("user.dir") + "/src/main/resources/config.properties");
 		prop.load(ip);
 	}
-
+	
+	@Parameters("browser")
 	@BeforeMethod
-	public void setup() throws IOException {
+	public void setup(String browser) throws IOException {
 		System.out.println("Setting up WebDriver for:" + this.getClass().getSimpleName());
-		launchBrowser();
+		launchBrowser(browser);
 		configureBrowser();
 		staticWait(2);
 	}
 
-	private void launchBrowser() {
-		String browserName = prop.getProperty("browser");
+	private void launchBrowser(String browserName) {
+//		String browserName = prop.getProperty("browser");
 		boolean isHeadless = Boolean.parseBoolean(prop.getProperty("headless"));
 
 		if (browserName.equalsIgnoreCase("chrome")) {
